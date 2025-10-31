@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Municipality of Pagsanjan - Official Website</title>
+    <title>Macguyver Enterprise</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -45,11 +45,11 @@
             <div class="flex items-center justify-between py-4">
                 <div class="flex items-center space-x-4">
                     <div class="text-blue-600">
-                        <i class="fas fa-landmark text-4xl"></i>
+                        <img src="public/logo.png" alt="Macguyver Enterprise Logo" class="h-10 w-10 object-contain">
                     </div>
                     <div>
-                        <h1 class="text-xl md:text-2xl font-bold text-gray-800">Municipality of Pagsanjan</h1>
-                        <p class="text-sm text-gray-600">Laguna, Philippines</p>
+                        <h1 class="text-xl md:text-2xl font-bold text-gray-800">Macguyver Enterprises</h1>
+                        <p class="text-sm text-gray-600">Engineering the Future. Powering Possibility.</p>
                     </div>
                 </div>
                 <button id="mobile-menu-btn" class="md:hidden text-gray-600">
@@ -59,22 +59,20 @@
             
             <nav id="main-nav" class="hidden md:flex pb-4 space-x-6 text-sm">
                 <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Home</a>
-                <a href="#news" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">News & Events</a>
-                <a href="#procurement" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Procurement</a>
-                <a href="#transparency" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Transparency</a>
-                <a href="#services" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Online Services</a>
+                <a href="#news" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Showroom</a>
+                <a href="#services" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">What We Power</a>
+                <a href="#procurement" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Procurement & Bids</a>
+                <a href="#transparency" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Downloads</a>
                 <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Contact</a>
-                <a href="#admin" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Admin</a>
             </nav>
             
             <nav id="mobile-nav" class="hidden md:hidden pb-4 flex flex-col space-y-2">
                 <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Home</a>
-                <a href="#news" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">News & Events</a>
-                <a href="#procurement" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Procurement</a>
-                <a href="#transparency" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Transparency</a>
-                <a href="#services" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Online Services</a>
+                <a href="#news" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Showroom</a>
+                <a href="#services" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">What We Power</a>
+                <a href="#procurement" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Procurement & Bids</a>
+                <a href="#transparency" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Downloads</a>
                 <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Contact</a>
-                <a href="#admin" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition">Admin</a>
             </nav>
         </div>
     </header>
@@ -82,33 +80,56 @@
     <section id="home" class="section-padding">
         <div class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white overflow-hidden">
             <div class="carousel-container relative h-96">
+                
+                
+                <div class="carousel-item absolute inset-0">
+                    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                    <img src="public/automation.avif" alt="Public Service" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center px-4">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Industrial Automation & Control</h2>
+                            <p class="text-xl md:text-2xl">Smart systems that make operations faster, safer, and more efficient</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="carousel-item active absolute inset-0">
                     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200" alt="Municipality Building" class="w-full h-full object-cover">
+                    <img src="public/infra.jpg" alt="Municipality Building" class="w-full h-full object-cover">
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="text-center px-4">
-                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Welcome to Pagsanjan</h2>
-                            <p class="text-xl md:text-2xl">Serving our community with excellence and transparency</p>
+                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Smart Infrastructure </h2>
+                            <p class="text-xl md:text-2xl">Structural and civil works with sustainability at their core</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active absolute inset-0">
+                    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                    <img src="public/hvac.avif" alt="Municipality Building" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center px-4">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Mechanical Solutions</h2>
+                            <p class="text-xl md:text-2xl">HVAC, motor control, and custom mechanical fabrication</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active absolute inset-0">
+                    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                    <img src="public/electrical.avif" alt="Municipality Building" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center px-4">
+                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Electrical Design & Implementation</h2>
+                            <p class="text-xl md:text-2xl">Power distribution, backup systems, and energy optimization</p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item absolute inset-0">
                     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?w=1200" alt="Community Service" class="w-full h-full object-cover">
+                    <img src="public/solar.avif" alt="Solar Energy" class="w-full h-full object-cover">
+                    
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="text-center px-4">
-                            <h2 class="text-4xl md:text-5xl font-bold mb-4">New Infrastructure Projects</h2>
-                            <p class="text-xl md:text-2xl">Building a better future for all residents</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item absolute inset-0">
-                    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                    <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=1200" alt="Public Service" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="text-center px-4">
-                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Community Health Programs</h2>
-                            <p class="text-xl md:text-2xl">Your health is our priority</p>
+                            <h2 class="text-4xl md:text-5xl font-bold mb-4">Renewable Energy for Everyone</h2>
+                            <p class="text-xl md:text-2xl">Clean Energy. Good Life. Bright Future.</p>
                         </div>
                     </div>
                 </div>
@@ -121,295 +142,334 @@
                 </button>
             </div>
         </div>
+        <section id="news" class="section-padding bg-white py-12">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4 md:mb-0">Showroom</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <button onclick="filterNews('all')" class="news-filter px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition">All</button>
+                        <button onclick="filterNews('Renewable Energy')" class="news-filter px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition">Renewable Energy</button>
+                        <button onclick="filterNews('automation')" class="news-filter px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition">Industrial Automation </button>
+                        <button onclick="filterNews('electrical')" class="news-filter px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition">Electrical </button>
+                        <button onclick="filterNews('infrastructure')" class="news-filter px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition">Mechanical</button>
+                        <button onclick="filterNews('Smart Infrastructure')" class="news-filter px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition">Smart Infrastructure</button>
+                    </div>
+                </div>
+    
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="news-container">
+                    <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="Renewable Energy">
+                        <img src="public/70-4-kwp.png" alt="Infrastructure" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <span class="text-xs font-semibold text-yellow-600 bg-yellow-100 px-2 py-1 rounded">Solar</span>
+                            <h3 class="font-bold text-lg mt-2 mb-2">Dennora Corporation (70.4 kWp Solar PV System)</h3>
+                            <p class="text-gray-600 text-sm mb-3">From energy bills to energy independence.</p>
+                            <div class="flex items-center justify-between text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i>October 25, 2025</span>
+                                <a href="#" class="text-blue-600 hover:underline">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="Renewable Energy">
+                        <img src="public/escolapia.png" alt="Health" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <span class="text-xs font-semibold text-yellow-600 bg-yellow-100 px-2 py-1 rounded">Solar</span>
+                            <h3 class="font-bold text-lg mt-2 mb-2">Municipality of Sta. Cruz (Escolapia Building)</h3>
+                            <p class="text-gray-600 text-sm mb-3">Civic infrastructure, now solar-powered.</p>
+                            <div class="flex items-center justify-between text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i>October 22, 2025</span>
+                                <a href="#" class="text-blue-600 hover:underline">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="Renewable Energy">
+                        <img src="public/16kwp.png" alt="Community" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <span class="text-xs font-semibold text-yellow-600 bg-yellow-100 px-2 py-1 rounded">Solar</span>
+                            <h3 class="font-bold text-lg mt-2 mb-2">Knut Benzrod Resort House (16 kWp Hybrid System)</h3>
+                            <p class="text-gray-600 text-sm mb-3">Luxury meets sustainability.</p>
+                            <div class="flex items-center justify-between text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i>October 20, 2025</span>
+                                <a href="#" class="text-blue-600 hover:underline">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="Renewable Energy">
+                        <img src="public/5kw-on-grid.png" alt="Solar" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <span class="text-xs font-semibold text-yellow-600 bg-yellow-100 px-2 py-1 rounded">Solar</span>
+                            <h3 class="font-bold text-lg mt-2 mb-2">San Pedro, Laguna (5 kW On-Grid System)</h3>
+                            <p class="text-gray-600 text-sm mb-3">Solar for modern living.</p>
+                            <div class="flex items-center justify-between text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i>October 18, 2025</span>
+                                <a href="#" class="text-blue-600 hover:underline">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="Smart Infrastructure">
+                        <img src="public/cctv.png" alt="Education" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <span class="text-xs font-semibold text-blue-600 bg-blue-100 px-2 py-1 rounded">CCTV</span>
+                            <h3 class="font-bold text-lg mt-2 mb-2">Pila & Sta. Cruz, Laguna (CCTV & Command Centers)</h3>
+                            <p class="text-gray-600 text-sm mb-3">Security through smart engineering.</p>
+                            <div class="flex items-center justify-between text-sm text-gray-500">
+                                <span><i class="far fa-calendar mr-1"></i>October 15, 2025</span>
+                                <a href="#" class="text-blue-600 hover:underline">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div class="container mx-auto px-4 py-12">
-            <div class="bg-blue-50 border-l-4 border-blue-600 p-4 mb-8">
-                <p class="text-gray-700">
-                    <strong>Welcome to Pagsanjan!</strong> Today is <span id="current-date"></span>
-                </p>
-            </div>
-
-            <h2 class="text-3xl font-bold text-gray-800 mb-6">What's New in Pagsanjan?</h2>
-            
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+              What’s New at MacGuyver Enterprises?
+            </h2>
+          
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <div class="bg-blue-600 text-white px-4 py-3">
-                        <h3 class="font-bold text-lg flex items-center">
-                            <i class="fas fa-gavel mr-2"></i>Bids and Projects
-                        </h3>
-                    </div>
-                    <div class="p-4">
-                        <ul class="space-y-3 text-sm">
-                            <li class="border-b pb-2">
-                                <a href="#procurement" class="text-blue-600 hover:underline">Supply and Delivery of Medical Equipment</a>
-                                <p class="text-gray-500 text-xs mt-1">22 Oct</p>
-                            </li>
-                            <li class="border-b pb-2">
-                                <a href="#procurement" class="text-blue-600 hover:underline">Road Improvement Project - CRN 2025-045</a>
-                                <p class="text-gray-500 text-xs mt-1">20 Oct</p>
-                            </li>
-                            <li class="border-b pb-2">
-                                <a href="#procurement" class="text-blue-600 hover:underline">Barangay Hall Construction - CRN 2025-043</a>
-                                <p class="text-gray-500 text-xs mt-1">18 Oct</p>
-                            </li>
-                            <li>
-                                <a href="#procurement" class="text-blue-600 hover:underline">IT Equipment and Supplies - CRN 2025-041</a>
-                                <p class="text-gray-500 text-xs mt-1">15 Oct</p>
-                            </li>
-                        </ul>
-                        <a href="#procurement" class="text-blue-600 hover:underline text-sm font-medium mt-4 inline-block">View All →</a>
-                    </div>
+              <!-- Projects & Innovations -->
+              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-blue-600 text-white px-4 py-3">
+                  <h3 class="font-bold text-lg flex items-center">
+                    <i class="fas fa-lightbulb mr-2"></i>Projects & Innovations
+                  </h3>
                 </div>
-
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <div class="bg-green-600 text-white px-4 py-3">
-                        <h3 class="font-bold text-lg flex items-center">
-                            <i class="fas fa-file-alt mr-2"></i>Executive Issuances
-                        </h3>
-                    </div>
-                    <div class="p-4">
-                        <ul class="space-y-3 text-sm">
-                            <li class="border-b pb-2">
-                                <a href="#" class="text-blue-600 hover:underline">Executive Order No. 2025-032</a>
-                                <p class="text-gray-500 text-xs mt-1">25 Oct</p>
-                            </li>
-                            <li class="border-b pb-2">
-                                <a href="#" class="text-blue-600 hover:underline">Executive Order No. 2025-031</a>
-                                <p class="text-gray-500 text-xs mt-1">18 Oct</p>
-                            </li>
-                            <li class="border-b pb-2">
-                                <a href="#" class="text-blue-600 hover:underline">Municipal Resolution No. 2025-125</a>
-                                <p class="text-gray-500 text-xs mt-1">12 Oct</p>
-                            </li>
-                            <li>
-                                <a href="#" class="text-blue-600 hover:underline">Executive Order No. 2025-030</a>
-                                <p class="text-gray-500 text-xs mt-1">10 Oct</p>
-                            </li>
-                        </ul>
-                        <a href="#transparency" class="text-blue-600 hover:underline text-sm font-medium mt-4 inline-block">View All →</a>
-                    </div>
+                <div class="p-4">
+                  <ul class="space-y-3 text-sm">
+                    <li class="border-b pb-2">
+                      <a href="#projects" class="text-blue-600 hover:underline">
+                        Launch of SolarGrid 2.0 Microfarm Network
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">26 Oct</p>
+                    </li>
+                    <li class="border-b pb-2">
+                      <a href="#projects" class="text-blue-600 hover:underline">
+                        MacGuyver Drone Fleet Now in Beta Testing
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">20 Oct</p>
+                    </li>
+                    <li class="border-b pb-2">
+                      <a href="#projects" class="text-blue-600 hover:underline">
+                        Partnership with GreenCore for Smart Energy Systems
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">17 Oct</p>
+                    </li>
+                    <li>
+                      <a href="#projects" class="text-blue-600 hover:underline">
+                        Off-Grid Power Cube Prototype Completed
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">10 Oct</p>
+                    </li>
+                  </ul>
+                  <a href="#projects" class="text-blue-600 hover:underline text-sm font-medium mt-4 inline-block">
+                    Explore More →
+                  </a>
                 </div>
-
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <div class="bg-purple-600 text-white px-4 py-3">
-                        <h3 class="font-bold text-lg flex items-center">
-                            <i class="fas fa-chart-bar mr-2"></i>Reports
-                        </h3>
-                    </div>
-                    <div class="p-4">
-                        <ul class="space-y-3 text-sm">
-                            <li class="border-b pb-2">
-                                <a href="#transparency" class="text-blue-600 hover:underline">Q3 2025 Financial Report</a>
-                                <p class="text-gray-500 text-xs mt-1">15 Oct</p>
-                            </li>
-                            <li class="border-b pb-2">
-                                <a href="#transparency" class="text-blue-600 hover:underline">Infrastructure Progress Report</a>
-                                <p class="text-gray-500 text-xs mt-1">08 Oct</p>
-                            </li>
-                            <li class="border-b pb-2">
-                                <a href="#transparency" class="text-blue-600 hover:underline">Community Development Update</a>
-                                <p class="text-gray-500 text-xs mt-1">01 Oct</p>
-                            </li>
-                            <li>
-                                <a href="#transparency" class="text-blue-600 hover:underline">Annual Investment Plan 2025</a>
-                                <p class="text-gray-500 text-xs mt-1">25 Sep</p>
-                            </li>
-                        </ul>
-                        <a href="#transparency" class="text-blue-600 hover:underline text-sm font-medium mt-4 inline-block">View All →</a>
-                    </div>
+              </div>
+          
+              <!-- Corporate Updates -->
+              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-green-600 text-white px-4 py-3">
+                  <h3 class="font-bold text-lg flex items-center">
+                    <i class="fas fa-briefcase mr-2"></i>Corporate Updates
+                  </h3>
                 </div>
+                <div class="p-4">
+                  <ul class="space-y-3 text-sm">
+                    <li class="border-b pb-2">
+                      <a href="#news" class="text-blue-600 hover:underline">
+                        MacGuyver Appoints New Chief Technology Officer
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">24 Oct</p>
+                    </li>
+                    <li class="border-b pb-2">
+                      <a href="#news" class="text-blue-600 hover:underline">
+                        Opening of the MacGuyver Innovation Hub in Cebu
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">18 Oct</p>
+                    </li>
+                    <li class="border-b pb-2">
+                      <a href="#news" class="text-blue-600 hover:underline">
+                        Company Wins Regional EnergyTech Award 2025
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">12 Oct</p>
+                    </li>
+                    <li>
+                      <a href="#news" class="text-blue-600 hover:underline">
+                        Employee Innovation Challenge Kicks Off
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">05 Oct</p>
+                    </li>
+                  </ul>
+                  <a href="#news" class="text-blue-600 hover:underline text-sm font-medium mt-4 inline-block">
+                    Read All Updates →
+                  </a>
+                </div>
+              </div>
+          
+              <!-- Reports & Insights -->
+              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-purple-600 text-white px-4 py-3">
+                  <h3 class="font-bold text-lg flex items-center">
+                    <i class="fas fa-chart-line mr-2"></i>Reports & Insights
+                  </h3>
+                </div>
+                <div class="p-4">
+                  <ul class="space-y-3 text-sm">
+                    <li class="border-b pb-2">
+                      <a href="#reports" class="text-blue-600 hover:underline">
+                        Q3 2025 Sustainability Performance Report
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">15 Oct</p>
+                    </li>
+                    <li class="border-b pb-2">
+                      <a href="#reports" class="text-blue-600 hover:underline">
+                        Innovation Metrics: CleanTech Deployments
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">08 Oct</p>
+                    </li>
+                    <li class="border-b pb-2">
+                      <a href="#reports" class="text-blue-600 hover:underline">
+                        Research Brief: Smart Grid Integration Study
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">02 Oct</p>
+                    </li>
+                    <li>
+                      <a href="#reports" class="text-blue-600 hover:underline">
+                        Annual Growth and Impact Summary 2025
+                      </a>
+                      <p class="text-gray-500 text-xs mt-1">25 Sep</p>
+                    </li>
+                  </ul>
+                  <a href="#reports" class="text-blue-600 hover:underline text-sm font-medium mt-4 inline-block">
+                    View All Reports →
+                  </a>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
     </section>
 
-    <section id="news" class="section-padding bg-white py-12">
+    
+
+    <section id="opportunities" class="section-padding bg-gray-100 py-12">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4 md:mb-0">News & Events</h2>
-                <div class="flex flex-wrap gap-2">
-                    <button onclick="filterNews('all')" class="news-filter px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition">All</button>
-                    <button onclick="filterNews('community')" class="news-filter px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition">Community</button>
-                    <button onclick="filterNews('health')" class="news-filter px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition">Health</button>
-                    <button onclick="filterNews('infrastructure')" class="news-filter px-4 py-2 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300 transition">Infrastructure</button>
-                </div>
+          <h2 class="text-3xl font-bold text-gray-800 mb-6">Partnerships & Opportunities</h2>
+          <p class="text-gray-600 mb-6">
+            Explore current collaboration and supply opportunities with MacGuyver Enterprises. 
+            Download detailed bid packets and technical specifications below.
+          </p>
+      
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="overflow-x-auto">
+              <table class="w-full">
+                <thead class="bg-blue-600 text-white">
+                  <tr>
+                    <th class="px-4 py-3 text-left">Ref. Code</th>
+                    <th class="px-4 py-3 text-left">Project Title</th>
+                    <th class="px-4 py-3 text-left">Posted</th>
+                    <th class="px-4 py-3 text-left">Deadline</th>
+                    <th class="px-4 py-3 text-left">Documents</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y">
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3 font-medium">ME-2025-115</td>
+                    <td class="px-4 py-3">
+                      Supply and Integration of Solar Microgrid Controllers for Rural Sites
+                    </td>
+                    <td class="px-4 py-3 text-sm text-gray-600">Oct 25, 2025</td>
+                    <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 18, 2025</td>
+                    <td class="px-4 py-3">
+                      <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                        <i class="far fa-file-pdf mr-1"></i>Download RFP
+                      </a>
+                    </td>
+                  </tr>
+      
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3 font-medium">ME-2025-114</td>
+                    <td class="px-4 py-3">
+                      Development of AI-Based Predictive Maintenance Platform for Power Systems
+                    </td>
+                    <td class="px-4 py-3 text-sm text-gray-600">Oct 20, 2025</td>
+                    <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 12, 2025</td>
+                    <td class="px-4 py-3">
+                      <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                        <i class="far fa-file-pdf mr-1"></i>Download RFP
+                      </a>
+                    </td>
+                  </tr>
+      
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3 font-medium">ME-2025-113</td>
+                    <td class="px-4 py-3">
+                      Fabrication and Supply of Modular Energy Storage Units
+                    </td>
+                    <td class="px-4 py-3 text-sm text-gray-600">Oct 18, 2025</td>
+                    <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 10, 2025</td>
+                    <td class="px-4 py-3">
+                      <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                        <i class="far fa-file-pdf mr-1"></i>Download RFP
+                      </a>
+                    </td>
+                  </tr>
+      
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3 font-medium">ME-2025-112</td>
+                    <td class="px-4 py-3">
+                      Procurement of High-Efficiency Inverter Systems for Pilot Deployment
+                    </td>
+                    <td class="px-4 py-3 text-sm text-gray-600">Oct 15, 2025</td>
+                    <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 08, 2025</td>
+                    <td class="px-4 py-3">
+                      <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                        <i class="far fa-file-pdf mr-1"></i>Download RFP
+                      </a>
+                    </td>
+                  </tr>
+      
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3 font-medium">ME-2025-111</td>
+                    <td class="px-4 py-3">
+                      Supply and Deployment of Edge Computing Devices for Smart Grid Analytics
+                    </td>
+                    <td class="px-4 py-3 text-sm text-gray-600">Oct 12, 2025</td>
+                    <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 05, 2025</td>
+                    <td class="px-4 py-3">
+                      <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                        <i class="far fa-file-pdf mr-1"></i>Download RFP
+                      </a>
+                    </td>
+                  </tr>
+      
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3 font-medium">ME-2025-110</td>
+                    <td class="px-4 py-3">
+                      Outsourced Fabrication of Lightweight Drone Components
+                    </td>
+                    <td class="px-4 py-3 text-sm text-gray-600">Oct 10, 2025</td>
+                    <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 03, 2025</td>
+                    <td class="px-4 py-3">
+                      <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                        <i class="far fa-file-pdf mr-1"></i>Download RFP
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="news-container">
-                <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="infrastructure">
-                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600" alt="Infrastructure" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <span class="text-xs font-semibold text-blue-600 bg-blue-100 px-2 py-1 rounded">Infrastructure</span>
-                        <h3 class="font-bold text-lg mt-2 mb-2">New Bridge Project Inaugurated in Barangay Sampaloc</h3>
-                        <p class="text-gray-600 text-sm mb-3">The municipality celebrates the completion of a new bridge connecting two major barangays, improving accessibility for residents.</p>
-                        <div class="flex items-center justify-between text-sm text-gray-500">
-                            <span><i class="far fa-calendar mr-1"></i>October 25, 2025</span>
-                            <a href="#" class="text-blue-600 hover:underline">Read More →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="health">
-                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600" alt="Health" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <span class="text-xs font-semibold text-green-600 bg-green-100 px-2 py-1 rounded">Health</span>
-                        <h3 class="font-bold text-lg mt-2 mb-2">Free Medical Mission Serves 500+ Residents</h3>
-                        <p class="text-gray-600 text-sm mb-3">Annual health caravan provides free consultations, medicines, and diagnostic services to underserved communities.</p>
-                        <div class="flex items-center justify-between text-sm text-gray-500">
-                            <span><i class="far fa-calendar mr-1"></i>October 22, 2025</span>
-                            <a href="#" class="text-blue-600 hover:underline">Read More →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="community">
-                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600" alt="Community" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <span class="text-xs font-semibold text-purple-600 bg-purple-100 px-2 py-1 rounded">Community</span>
-                        <h3 class="font-bold text-lg mt-2 mb-2">Pagsanjan Celebrates Foundation Day with Grand Festival</h3>
-                        <p class="text-gray-600 text-sm mb-3">Residents gather for colorful street dancing, cultural performances, and community activities marking the town's founding.</p>
-                        <div class="flex items-center justify-between text-sm text-gray-500">
-                            <span><i class="far fa-calendar mr-1"></i>October 20, 2025</span>
-                            <a href="#" class="text-blue-600 hover:underline">Read More →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="infrastructure">
-                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600" alt="Solar" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <span class="text-xs font-semibold text-blue-600 bg-blue-100 px-2 py-1 rounded">Infrastructure</span>
-                        <h3 class="font-bold text-lg mt-2 mb-2">Solar Street Lights Installed in 15 Barangays</h3>
-                        <p class="text-gray-600 text-sm mb-3">Environmental sustainability initiative brings improved nighttime visibility and safety to rural communities.</p>
-                        <div class="flex items-center justify-between text-sm text-gray-500">
-                            <span><i class="far fa-calendar mr-1"></i>October 18, 2025</span>
-                            <a href="#" class="text-blue-600 hover:underline">Read More →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="community">
-                    <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600" alt="Education" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <span class="text-xs font-semibold text-purple-600 bg-purple-100 px-2 py-1 rounded">Community</span>
-                        <h3 class="font-bold text-lg mt-2 mb-2">Scholarship Program Awards 200 Students</h3>
-                        <p class="text-gray-600 text-sm mb-3">Municipal government expands educational support, providing full scholarships to deserving youth.</p>
-                        <div class="flex items-center justify-between text-sm text-gray-500">
-                            <span><i class="far fa-calendar mr-1"></i>October 15, 2025</span>
-                            <a href="#" class="text-blue-600 hover:underline">Read More →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="news-item bg-white rounded-lg shadow-md overflow-hidden" data-category="health">
-                    <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=600" alt="Vaccination" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <span class="text-xs font-semibold text-green-600 bg-green-100 px-2 py-1 rounded">Health</span>
-                        <h3 class="font-bold text-lg mt-2 mb-2">Vaccination Drive Reaches 90% Coverage</h3>
-                        <p class="text-gray-600 text-sm mb-3">Municipal health office reports successful immunization campaign protecting children and elderly residents.</p>
-                        <div class="flex items-center justify-between text-sm text-gray-500">
-                            <span><i class="far fa-calendar mr-1"></i>October 12, 2025</span>
-                            <a href="#" class="text-blue-600 hover:underline">Read More →</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <section id="procurement" class="section-padding bg-gray-100 py-12">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-gray-800 mb-6">Procurement & Bids</h2>
-            <p class="text-gray-600 mb-6">View current and upcoming procurement opportunities. All bid documents are available for download.</p>
-
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="overflow-x-auto">
-                    <table class="w-full">
-                        <thead class="bg-blue-600 text-white">
-                            <tr>
-                                <th class="px-4 py-3 text-left">CRN Number</th>
-                                <th class="px-4 py-3 text-left">Project Description</th>
-                                <th class="px-4 py-3 text-left">Posted Date</th>
-                                <th class="px-4 py-3 text-left">Deadline</th>
-                                <th class="px-4 py-3 text-left">Documents</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y">
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-4 py-3 font-medium">2025-045</td>
-                                <td class="px-4 py-3">Supply and Delivery of Medical Equipment and Supplies for Rural Health Units</td>
-                                <td class="px-4 py-3 text-sm text-gray-600">Oct 22, 2025</td>
-                                <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 15, 2025</td>
-                                <td class="px-4 py-3">
-                                    <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
-                                        <i class="far fa-file-pdf mr-1"></i>Download PDF
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-4 py-3 font-medium">2025-044</td>
-                                <td class="px-4 py-3">Road Improvement and Concreting Project - Barangay San Isidro to Poblacion</td>
-                                <td class="px-4 py-3 text-sm text-gray-600">Oct 20, 2025</td>
-                                <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 12, 2025</td>
-                                <td class="px-4 py-3">
-                                    <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
-                                        <i class="far fa-file-pdf mr-1"></i>Download PDF
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-4 py-3 font-medium">2025-043</td>
-                                <td class="px-4 py-3">Construction of Multi-Purpose Barangay Hall - Barangay Maulawin</td>
-                                <td class="px-4 py-3 text-sm text-gray-600">Oct 18, 2025</td>
-                                <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 10, 2025</td>
-                                <td class="px-4 py-3">
-                                    <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
-                                        <i class="far fa-file-pdf mr-1"></i>Download PDF
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-4 py-3 font-medium">2025-042</td>
-                                <td class="px-4 py-3">Procurement of Computer Equipment and IT Infrastructure for Municipal Office</td>
-                                <td class="px-4 py-3 text-sm text-gray-600">Oct 15, 2025</td>
-                                <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 08, 2025</td>
-                                <td class="px-4 py-3">
-                                    <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
-                                        <i class="far fa-file-pdf mr-1"></i>Download PDF
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-4 py-3 font-medium">2025-041</td>
-                                <td class="px-4 py-3">Supply and Delivery of Agricultural Equipment and Seeds for Farmers' Program</td>
-                                <td class="px-4 py-3 text-sm text-gray-600">Oct 12, 2025</td>
-                                <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 05, 2025</td>
-                                <td class="px-4 py-3">
-                                    <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
-                                        <i class="far fa-file-pdf mr-1"></i>Download PDF
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-gray-50">
-                                <td class="px-4 py-3 font-medium">2025-040</td>
-                                <td class="px-4 py-3">Security Services for Municipal Government Buildings and Facilities</td>
-                                <td class="px-4 py-3 text-sm text-gray-600">Oct 10, 2025</td>
-                                <td class="px-4 py-3 text-sm text-red-600 font-medium">Nov 03, 2025</td>
-                                <td class="px-4 py-3">
-                                    <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
-                                        <i class="far fa-file-pdf mr-1"></i>Download PDF
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
+      </section>
 
     <section id="transparency" class="section-padding bg-white py-12">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-gray-800 mb-6">Transparency & Good Governance</h2>
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Downloads</h2>
             <p class="text-gray-600 mb-6">Access public documents, budget reports, and municipal transparency information.</p>
 
             <div class="mb-6 flex flex-col md:flex-row gap-4">
@@ -438,8 +498,8 @@
                         </div>
                         <span class="text-xs font-semibold text-blue-600 bg-blue-100 px-2 py-1 rounded">Budget</span>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">2025 Annual Budget</h3>
-                    <p class="text-gray-600 text-sm mb-4">Comprehensive budget allocation for all municipal departments and programs</p>
+                    <h3 class="font-bold text-lg mb-2">Solutions Guide</h3>
+                    <p class="text-gray-600 text-sm mb-4">A concise, visually engaging overview of all our core offerings — perfect for sharing or offline reference.</p>
                     <div class="flex items-center justify-between">
                         <span class="text-xs text-gray-500">Updated: Oct 1, 2025</span>
                         <a href="#" class="text-blue-600 hover:underline text-sm font-medium">Download</a>
@@ -453,8 +513,8 @@
                         </div>
                         <span class="text-xs font-semibold text-green-600 bg-green-100 px-2 py-1 rounded">AIP</span>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">Annual Investment Plan 2025</h3>
-                    <p class="text-gray-600 text-sm mb-4">Strategic investment priorities and infrastructure development plans</p>
+                    <h3 class="font-bold text-lg mb-2">Annual Impact Report</h3>
+                    <p class="text-gray-600 text-sm mb-4">A data-driven look at our milestones, community reach, and performance highlights from the past year.</p>
                     <div class="flex items-center justify-between">
                         <span class="text-xs text-gray-500">Updated: Sep 25, 2025</span>
                         <a href="#" class="text-blue-600 hover:underline text-sm font-medium">Download</a>
@@ -468,8 +528,8 @@
                         </div>
                         <span class="text-xs font-semibold text-purple-600 bg-purple-100 px-2 py-1 rounded">Financial</span>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">Q3 2025 Financial Report</h3>
-                    <p class="text-gray-600 text-sm mb-4">Quarterly financial statement and budget utilization summary</p>
+                    <h3 class="font-bold text-lg mb-2">Strategic Roadmap</h3>
+                    <p class="text-gray-600 text-sm mb-4">A forward-looking document outlining our goals, upcoming projects, and innovation priorities.</p>
                     <div class="flex items-center justify-between">
                         <span class="text-xs text-gray-500">Updated: Oct 15, 2025</span>
                         <a href="#" class="text-blue-600 hover:underline text-sm font-medium">Download</a>
@@ -483,8 +543,8 @@
                         </div>
                         <span class="text-xs font-semibold text-purple-600 bg-purple-100 px-2 py-1 rounded">Financial</span>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">2024 Annual Audit Report</h3>
-                    <p class="text-gray-600 text-sm mb-4">Complete financial audit report for fiscal year 2024</p>
+                    <h3 class="font-bold text-lg mb-2">Research Digest</h3>
+                    <p class="text-gray-600 text-sm mb-4">A curated collection of studies, insights, and case reports relevant to our field or local initiatives.</p>
                     <div class="flex items-center justify-between">
                         <span class="text-xs text-gray-500">Updated: Jan 15, 2025</span>
                         <a href="#" class="text-blue-600 hover:underline text-sm font-medium">Download</a>
@@ -498,8 +558,8 @@
                         </div>
                         <span class="text-xs font-semibold text-red-600 bg-red-100 px-2 py-1 rounded">Ordinance</span>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">Municipal Ordinances 2025</h3>
-                    <p class="text-gray-600 text-sm mb-4">Collection of all municipal ordinances passed this year</p>
+                    <h3 class="font-bold text-lg mb-2">Sustainability Brief</h3>
+                    <p class="text-gray-600 text-sm mb-4">Our environmental and social commitments summarized for transparency and accountability. </p>
                     <div class="flex items-center justify-between">
                         <span class="text-xs text-gray-500">Updated: Oct 20, 2025</span>
                         <a href="#" class="text-blue-600 hover:underline text-sm font-medium">Download</a>
@@ -513,8 +573,8 @@
                         </div>
                         <span class="text-xs font-semibold text-yellow-600 bg-yellow-100 px-2 py-1 rounded">Executive</span>
                     </div>
-                    <h3 class="font-bold text-lg mb-2">Executive Orders 2025</h3>
-                    <p class="text-gray-600 text-sm mb-4">Complete compilation of executive orders issued by the mayor</p>
+                    <h3 class="font-bold text-lg mb-2">Community Handbook</h3>
+                    <p class="text-gray-600 text-sm mb-4">A friendly, downloadable guide for partners, clients, or residents to understand how to engage with us.</p>
                     <div class="flex items-center justify-between">
                         <span class="text-xs text-gray-500">Updated: Oct 25, 2025</span>
                         <a href="#" class="text-blue-600 hover:underline text-sm font-medium">Download</a>
@@ -524,162 +584,115 @@
         </div>
     </section>
 
-    <section id="services" class="section-padding bg-gray-100 py-12">
+    <section id="services" class="section-padding bg-gray-100 py-16">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-gray-800 mb-6">Online Services & Citizens' Charter</h2>
-            <p class="text-gray-600 mb-6">Access municipal services, download forms, and view service procedures.</p>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-file-alt text-2xl"></i>
-                    </div>
-                    <h3 class="font-bold text-center mb-2">Business Permits</h3>
-                    <p class="text-gray-600 text-sm text-center mb-4">Apply for business permits and licenses</p>
-                    <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
-                        <i class="far fa-file-pdf mr-1"></i>Download Guide
-                    </a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="bg-green-100 text-green-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-home text-2xl"></i>
-                    </div>
-                    <h3 class="font-bold text-center mb-2">Building Permits</h3>
-                    <p class="text-gray-600 text-sm text-center mb-4">Construction and renovation permits</p>
-                    <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
-                        <i class="far fa-file-pdf mr-1"></i>Download Guide
-                    </a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-certificate text-2xl"></i>
-                    </div>
-                    <h3 class="font-bold text-center mb-2">Certificates</h3>
-                    <p class="text-gray-600 text-sm text-center mb-4">Birth, death, and marriage certificates</p>
-                    <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
-                        <i class="far fa-file-pdf mr-1"></i>Download Guide
-                    </a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="bg-red-100 text-red-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-money-bill text-2xl"></i>
-                    </div>
-                    <h3 class="font-bold text-center mb-2">Tax Payments</h3>
-                    <p class="text-gray-600 text-sm text-center mb-4">Real property and business tax payment</p>
-                    <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
-                        <i class="far fa-file-pdf mr-1"></i>Download Guide
-                    </a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="bg-yellow-100 text-yellow-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-briefcase text-2xl"></i>
-                    </div>
-                    <h3 class="font-bold text-center mb-2">Employment</h3>
-                    <p class="text-gray-600 text-sm text-center mb-4">Job opportunities and career services</p>
-                    <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
-                        <i class="far fa-file-pdf mr-1"></i>Download Guide
-                    </a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="bg-indigo-100 text-indigo-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-hand-holding-heart text-2xl"></i>
-                    </div>
-                    <h3 class="font-bold text-center mb-2">Social Services</h3>
-                    <p class="text-gray-600 text-sm text-center mb-4">Social welfare and assistance programs</p>
-                    <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
-                        <i class="far fa-file-pdf mr-1"></i>Download Guide
-                    </a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="bg-pink-100 text-pink-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-graduation-cap text-2xl"></i>
-                    </div>
-                    <h3 class="font-bold text-center mb-2">Scholarships</h3>
-                    <p class="text-gray-600 text-sm text-center mb-4">Educational assistance and scholarship programs</p>
-                    <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
-                        <i class="far fa-file-pdf mr-1"></i>Download Guide
-                    </a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="bg-teal-100 text-teal-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-heartbeat text-2xl"></i>
-                    </div>
-                    <h3 class="font-bold text-center mb-2">Health Services</h3>
-                    <p class="text-gray-600 text-sm text-center mb-4">Medical services and health programs</p>
-                    <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
-                        <i class="far fa-file-pdf mr-1"></i>Download Guide
-                    </a>
-                </div>
+          <h2 class="text-3xl font-bold text-gray-800 mb-4 text-center">⚡ What We Power</h2>
+          <p class="text-gray-600 text-center max-w-2xl mx-auto mb-10">
+            We don’t just install systems — we ignite change. Every project we deliver moves communities, industries, and cities toward a cleaner, smarter, and energy-independent future.
+          </p>
+      
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Renewable Energy Systems -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+              <div class="bg-yellow-100 text-yellow-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <i class="fas fa-solar-panel text-2xl"></i>
+              </div>
+              <h3 class="font-bold text-center text-lg mb-2">Renewable Energy Systems</h3>
+              <p class="text-gray-600 text-sm text-center mb-4">
+                Solar, hybrid, and off-grid power solutions designed for homes, industries, and municipalities.
+              </p>
+              <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
+                <i class="far fa-file-pdf mr-1"></i>Download Brochure
+              </a>
             </div>
+      
+            <!-- Industrial Automation & Control -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+              <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <i class="fas fa-cogs text-2xl"></i>
+              </div>
+              <h3 class="font-bold text-center text-lg mb-2">Industrial Automation & Control</h3>
+              <p class="text-gray-600 text-sm text-center mb-4">
+                Smart control systems that make operations faster, safer, and more energy-efficient.
+              </p>
+              <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
+                <i class="far fa-file-pdf mr-1"></i>Download Technical Overview
+              </a>
+            </div>
+      
+            <!-- Electrical Design & Implementation -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+              <div class="bg-green-100 text-green-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <i class="fas fa-bolt text-2xl"></i>
+              </div>
+              <h3 class="font-bold text-center text-lg mb-2">Electrical Design & Implementation</h3>
+              <p class="text-gray-600 text-sm text-center mb-4">
+                Full-cycle electrical engineering — from distribution and backup systems to energy optimization.
+              </p>
+              <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
+                <i class="far fa-file-pdf mr-1"></i>View System Specs
+              </a>
+            </div>
+      
+            <!-- Mechanical Solutions -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+              <div class="bg-red-100 text-red-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <i class="fas fa-fan text-2xl"></i>
+              </div>
+              <h3 class="font-bold text-center text-lg mb-2">Mechanical Solutions</h3>
+              <p class="text-gray-600 text-sm text-center mb-4">
+                Custom mechanical and HVAC systems engineered for efficiency, safety, and sustainability.
+              </p>
+              <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
+                <i class="far fa-file-pdf mr-1"></i>Download Project Profile
+              </a>
+            </div>
+      
+            <!-- Smart Infrastructure -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+              <div class="bg-indigo-100 text-indigo-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <i class="fas fa-city text-2xl"></i>
+              </div>
+              <h3 class="font-bold text-center text-lg mb-2">Smart Infrastructure</h3>
+              <p class="text-gray-600 text-sm text-center mb-4">
+                From civic centers to command rooms — integrating energy, security, and automation in one ecosystem.
+              </p>
+              <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
+                <i class="far fa-file-pdf mr-1"></i>Explore Case Study
+              </a>
+            </div>
+      
+            <!-- Energy Analytics & Monitoring -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition transform hover:-translate-y-1">
+              <div class="bg-teal-100 text-teal-600 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
+                <i class="fas fa-chart-line text-2xl"></i>
+              </div>
+              <h3 class="font-bold text-center text-lg mb-2">Energy Analytics & Monitoring</h3>
+              <p class="text-gray-600 text-sm text-center mb-4">
+                AI-driven dashboards and smart meters that give you real-time insight into your energy story.
+              </p>
+              <a href="#" class="block text-center text-blue-600 hover:underline text-sm font-medium">
+                <i class="far fa-file-pdf mr-1"></i>View Solution Brief
+              </a>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
     <section id="contact" class="section-padding bg-white py-12">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact Us</h2>
             
             <div class="grid md:grid-cols-2 gap-8">
-                <div>
-                    <div class="bg-red-50 border-l-4 border-red-600 p-6 mb-6">
-                        <h3 class="font-bold text-lg mb-4 text-red-800 flex items-center">
-                            <i class="fas fa-phone-alt mr-2"></i>Emergency Numbers
-                        </h3>
-                        <div class="space-y-2 text-gray-700">
-                            <p><strong>Emergency Hotline:</strong> 911</p>
-                            <p><strong>Municipal Operations Center:</strong> (049) 501-5000</p>
-                            <p><strong>Police Station:</strong> (049) 501-5001</p>
-                            <p><strong>Fire Department:</strong> (049) 501-5002</p>
-                            <p><strong>Medical Emergency:</strong> (049) 501-5003</p>
-                        </div>
-                    </div>
-
-                    <div class="bg-blue-50 border-l-4 border-blue-600 p-6">
-                        <h3 class="font-bold text-lg mb-4 text-blue-800 flex items-center">
-                            <i class="fas fa-building mr-2"></i>Municipal Office
-                        </h3>
-                        <div class="space-y-2 text-gray-700">
-                            <p><i class="fas fa-map-marker-alt mr-2 text-blue-600"></i>Municipal Hall, Poblacion, Pagsanjan, Laguna</p>
-                            <p><i class="fas fa-phone mr-2 text-blue-600"></i>(049) 501-5000</p>
-                            <p><i class="fas fa-envelope mr-2 text-blue-600"></i>info@pagsanjan.gov.ph</p>
-                            <p><i class="fas fa-clock mr-2 text-blue-600"></i>Mon-Fri: 8:00 AM - 5:00 PM</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-lg mb-4">Key Departments</h3>
-                    <div class="space-y-3">
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h4 class="font-semibold text-gray-800">Office of the Mayor</h4>
-                            <p class="text-sm text-gray-600">mayor@pagsanjan.gov.ph | Local 101</p>
-                        </div>
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h4 class="font-semibold text-gray-800">Municipal Planning Office</h4>
-                            <p class="text-sm text-gray-600">planning@pagsanjan.gov.ph | Local 201</p>
-                        </div>
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h4 class="font-semibold text-gray-800">Municipal Engineering Office</h4>
-                            <p class="text-sm text-gray-600">engineering@pagsanjan.gov.ph | Local 202</p>
-                        </div>
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h4 class="font-semibold text-gray-800">Municipal Health Office</h4>
-                            <p class="text-sm text-gray-600">health@pagsanjan.gov.ph | Local 301</p>
-                        </div>
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h4 class="font-semibold text-gray-800">Municipal Social Welfare Office</h4>
-                            <p class="text-sm text-gray-600">socialwelfare@pagsanjan.gov.ph | Local 302</p>
-                        </div>
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <h4 class="font-semibold text-gray-800">Municipal Treasurer's Office</h4>
-                            <p class="text-sm text-gray-600">treasurer@pagsanjan.gov.ph | Local 401</p>
-                        </div>
+                <div class="bg-blue-50 border-l-4 border-blue-600 p-6">
+                    <h3 class="font-bold text-lg mb-4 text-blue-800 flex items-center">
+                        <i class="fas fa-building mr-2"></i>MacGuyver Enterprises
+                    </h3>
+                    <div class="space-y-2 text-gray-700">
+                        <p><i class="fas fa-map-marker-alt mr-2 text-blue-600"></i>5817 Sitio Matahimik, Santa Cruz, Laguna 4009</p>
+                        <p><i class="fas fa-phone mr-2 text-blue-600"></i>+63 991 021 7025</p>
+                        <p><i class="fas fa-phone mr-2 text-blue-600"></i>+63 935 746 1256</p>
+                        <p><i class="fas fa-envelope mr-2 text-blue-600"></i>support@macguyverenterprises.com</p>
                     </div>
                 </div>
             </div>
@@ -871,7 +884,11 @@
                                 <h4 class="font-semibold mb-3">Top Pages</h4>
                                 <div class="space-y-2">
                                     <div class="flex justify-between text-sm">
-                                        <span>Home Page</span>
+                                        <span>What We Power</span>
+                                        <span class="font-medium">8,234 views</span>
+                                    </div>
+                                    <div class="flex justify-between text-sm">
+                                        <span>Out Mindset</span>
                                         <span class="font-medium">8,234 views</span>
                                     </div>
                                     <div class="flex justify-between text-sm">
@@ -883,7 +900,7 @@
                                         <span class="font-medium">3,892 views</span>
                                     </div>
                                     <div class="flex justify-between text-sm">
-                                        <span>News & Events</span>
+                                        <span>Showroom</span>
                                         <span class="font-medium">2,145 views</span>
                                     </div>
                                 </div>
@@ -1168,7 +1185,7 @@
             if (lowerMessage.includes('business permit')) {
                 response = 'To apply for a business permit, you need to visit our Municipal Business Office with the following: DTI/SEC registration, barangay clearance, valid ID, and lease contract. You can also download the requirements guide from our Online Services page.';
             } else if (lowerMessage.includes('event')) {
-                response = 'You can check our News & Events section for upcoming activities. We regularly update our calendar with community events, public consultations, and municipal programs.';
+                response = 'You can check our Showroom section for upcoming activities. We regularly update our calendar with community events, public consultations, and municipal programs.';
             } else if (lowerMessage.includes('contact') || lowerMessage.includes('phone')) {
                 response = 'You can reach our main office at (049) 501-5000 or email us at info@pagsanjan.gov.ph. For emergencies, dial 911 or our Municipal Operations Center at (049) 501-5000.';
             } else if (lowerMessage.includes('hours') || lowerMessage.includes('open')) {
